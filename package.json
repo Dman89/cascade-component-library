@@ -1,9 +1,9 @@
 {
   "name": "cascade-component-library",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "source": "src/index.jsx",
-  "main": "dist/main.jsx",
+  "main": "dist/main.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "parcel build src/index.jsx -d dist --out-file index.jsx",
+    "build": "parcel build src/index.jsx -d dist --out-file index.js",
     "buildreact": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
