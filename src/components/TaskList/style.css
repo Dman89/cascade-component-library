@@ -1,0 +1,44 @@
+.TaskList {
+    display: table;
+    width: 100%;
+    background: #FFFFFF;
+    empty-cells: show;
+}
+
+.TaskList header {
+    border-top: 1px solid #EAF0F3;
+    border-bottom: 1px solid #EAF0F3;
+}
+
+.TaskList header .col {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #9AA1A7;
+    padding: 13.5px;
+    vertical-align: middle;
+}
+
+.TaskList .col {
+    display: table-cell;
+    padding: 16px;
+    vertical-align: middle;
+    min-width: fit-content;
+    width: fit-content;
+    border-bottom: 1px solid #ECF2F5;
+    border-right: 1px solid #ECF2F5;
+}
+
+.TaskList .col:first-of-type {
+    padding-left: 40px;
+}
+
+.TaskList .col:last-of-type {
+    border-right: 0px solid #ECF2F5;
+}
+
+.TaskList > * {
+    display: table-row;
+}

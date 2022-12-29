@@ -1,0 +1,10 @@
+.Title {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.Title h1 {
+    margin: 0px;
+}

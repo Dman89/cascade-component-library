@@ -1,0 +1,14 @@
+{
+    "editor.codeActionsOnSave": [
+      "source.organizeImports",
+      "source.fixAll",
+      "source.fixAll.eslint",
+      "source.formatDocument",
+  ],
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ]
+  }

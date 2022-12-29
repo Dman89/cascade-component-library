@@ -1,0 +1,13 @@
+.ProfileIcon {
+    cursor: pointer;
+    border-width: 0px;
+    border: 0px soild black;
+    outline: none;
+    background: transparent;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 6px 5px rgba(255, 255, 255, 0.2);
+    background-color: #fd5428;
+    color: white;
+}

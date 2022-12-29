@@ -1,0 +1,47 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb/hooks",
+    "prettier",
+    "plugin:prettier/recommended",
+    "airbnb-base",
+    "airbnb"
+  ],
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "eqeqeq": "error",
+    "no-console": "warn",
+    "no-undef": "off",
+    "no-unused-vars": "off",
+    "quotes": [2, "double"],
+    "react/jsx-one-expression-per-line": "off",
+    "comma-dangle": "off",
+    "@typescript-eslint/ban-ts-comment": "warn",
+    "prettier/prettier": "error",
+    "object-curly-newline": "warn",
+    "max-len": ["error", { "code": 100 }]
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true,
+    "es2021": true
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true
+  },
+  "ignorePatterns": ["node_modules", "build", "dist", "public"]
+}

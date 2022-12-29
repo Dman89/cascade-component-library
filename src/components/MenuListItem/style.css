@@ -1,0 +1,58 @@
+.MenuListItem {
+    width: 100%;
+}
+
+.MenuListItem .menu-list-item {
+    cursor: pointer;
+    width: 100%;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
+    border-width: 0px;
+    border: 0px soild black;
+    outline: none;
+    background-color: transparent;
+    margin: 10px 8px 16px 24px;
+}
+
+.MenuListItem .menu-list-item .menu-list-item-icon {
+    height: 16px;
+    line-height: 16px;
+}
+
+.MenuListItem .menu-list-item .menu-list-item-text {
+    color: #3D464E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #3D464E;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    height: 16px;
+    padding: 0px 0px 0px 21px;
+}
+
+.MenuListItem {
+
+
+}
